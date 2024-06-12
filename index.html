@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </section>
-    
+            
             <section id="contact">
                 <h2>Hubungi Saya</h2>
                 <form>
@@ -70,11 +70,19 @@
                     <button type="submit" class="btn btn-primary">Kirim</button>
                 </form>
             </section>
+            <section id="temperature-converter">
+                <h2>Konverter Suhu</h2>
+                <label for="fahrenheit">Fahrenheit:</label>
+                <input type="number" id="fahrenheit" step="0.01">
+                <button onclick="convertToC()">Konversi ke Celcius</button>
+                <p id="celsius-result"></p>
+            </section>
         </main>
     
         <footer>
             <p class="text-center">&copy; 2024 Portofolio Asfi Nur Aizah</p>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
